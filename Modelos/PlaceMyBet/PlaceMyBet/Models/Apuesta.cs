@@ -26,4 +26,25 @@ namespace PlaceMyBet.Models
         public int Id_mercado { get; set; }
         public string Email_usuario { get; set; }
     }
+
+    public class ApuestaDTO
+    {
+        public ApuestaDTO(string fecha, double cuota, string tipo_apuesta, double dinero_apostado, int id_mercado, string email_usuario)
+        {
+            Fecha = fecha;
+            Cuota = cuota;
+            Tipo_apuesta = tipo_apuesta;
+            Dinero_apostado = dinero_apostado;
+            Id_mercado = id_mercado;
+            Email_usuario = email_usuario;
+        }
+
+        public string Fecha { get; set; }
+        public double Cuota { get; set; }
+        public string Tipo_apuesta { get; set; }
+        public double Dinero_apostado { get; set; }
+        public int Id_mercado { get; set; }
+        public string Email_usuario { get; set; }
+    }
+
 }
