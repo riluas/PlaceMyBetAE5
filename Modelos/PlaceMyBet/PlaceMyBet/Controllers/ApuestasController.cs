@@ -30,11 +30,11 @@ namespace PlaceMyBet.Controllers
 
             var repo = new ApuestaRepository();
             var repo2 = new MercadoRepository();
-            var tipo = repo.Cuota(apuesta);
+            double tipo = repo.Cuota(apuesta);
             repo.Save(apuesta, tipo);
             repo2.dineroUpdate(apuesta);
-            var cUpdate = repo2.cuotaUpdate();
-            repo2.calc(cUpdate, apuesta);
+            MercadoCuota cUpdate = repo2.cuotaUpdate();
+            repo2.calc(cUpdate);
 
         }
 

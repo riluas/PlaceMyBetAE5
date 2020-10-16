@@ -43,7 +43,7 @@ namespace PlaceMyBet.Models
             }
         }
 
-        internal MercadoDTO Cuota(ApuestaDTO apuesta)
+        internal double Cuota(ApuestaDTO apuesta)
         {
             MySqlConnection con = Connect();
             MySqlCommand command = con.CreateCommand();
@@ -61,32 +61,30 @@ namespace PlaceMyBet.Models
                 con.Open();
                 MySqlDataReader res = command.ExecuteReader();
 
-                MercadoDTO m = null;
+                double cuota = 0;
                 if (res.Read())
                 {
-                    Debug.WriteLine("Recuperado: "+ res.GetDouble(0));
-                    m = new MercadoDTO(res.GetDouble(0), res.GetDouble(0), res.GetDouble(0));
-
+                    cuota = res.GetDouble(0);
                 }
                 con.Close();
-                return m;
+                return cuota;
             }
             catch (MySqlException a)
             {
 
                 Debug.WriteLine("Se ha producido un error de conexión");
-                return null;
+                return 0;
 
             }
 
         }
 
 
-        internal void Save(ApuestaDTO apuesta, MercadoDTO tipo)
+        internal void Save(ApuestaDTO apuesta, double tipo)
         {
             MySqlConnection con = Connect();
             MySqlCommand command = con.CreateCommand();
-            command.CommandText = "INSERT INTO Apuesta(cuota, tipo_apuesta, dinero_apostado, id_mercado, email_usuario) VALUES('" + if() tipo.Cuota_under.ToString(CultureInfo.CreateSpecificCulture("us-US")) + "','" + apuesta.Tipo_apuesta + "','" + apuesta.Dinero_apostado + "','" + apuesta.Id_mercado + "','" + apuesta.Email_usuario + "');";
+            command.CommandText = "INSERT INTO Apuesta(cuota, tipo_apuesta, dinero_apostado, id_mercado, email_usuario) VALUES('" + tipo.ToString(CultureInfo.CreateSpecificCulture("us-US")) + "','" + apuesta.Tipo_apuesta + "','" + apuesta.Dinero_apostado + "','" + apuesta.Id_mercado + "','" + apuesta.Email_usuario + "');";
             
                 
             Debug.WriteLine("comando " + command.CommandText);

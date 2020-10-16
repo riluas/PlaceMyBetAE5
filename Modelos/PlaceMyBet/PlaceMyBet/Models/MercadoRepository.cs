@@ -13,16 +13,16 @@ namespace PlaceMyBet.Models
             MySqlConnection con = new MySqlConnection(connString);
             return con;
         }
-        internal void calc(Mercado cUpdate, ApuestaDTO apuesta)
+        internal void calc(MercadoCuota cUpdate)
         {
 
             MySqlConnection con = Connect();
             MySqlCommand command = con.CreateCommand();
 
-            
 
 
-                double pOver = cUpdate.Apostado_over/ (cUpdate.Apostado_over + cUpdate.Apostado_under);
+
+                double pOver = cUpdate.Apostado_over / (cUpdate.Apostado_over + cUpdate.Apostado_under);
                 double pUnder = cUpdate.Apostado_under / (cUpdate.Apostado_over + cUpdate.Apostado_under);
 
             Debug.WriteLine("Update over: " + cUpdate.Apostado_over);
@@ -77,7 +77,7 @@ namespace PlaceMyBet.Models
 
         }
 
-        internal Mercado cuotaUpdate()
+        internal MercadoCuota cuotaUpdate()
         {
             MySqlConnection con = Connect();
             MySqlCommand command = con.CreateCommand();
@@ -86,12 +86,12 @@ namespace PlaceMyBet.Models
             con.Open();
             MySqlDataReader res = command.ExecuteReader();
 
-            Mercado cUpdate = null;
+            MercadoCuota cUpdate = null;
             if (res.Read())
             {
 
-                Debug.WriteLine("Recuperado: " + res.GetDouble(1) + " " + res.GetDouble(2) + " " + res.GetDouble(3));
-                cUpdate = new Mercado(res.GetInt32(0),res.GetDouble(1), res.GetDouble(2), res.GetDouble(3), res.GetDouble(4), res.GetDouble(5), res.GetInt32(6));
+                Debug.WriteLine("Recuperado: " + res.GetDouble(0) + " " + res.GetDouble(1));
+               cUpdate = new MercadoCuota(res.GetInt32(0),res.GetDouble(4), res.GetDouble(5));
             }
             return cUpdate;
 

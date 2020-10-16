@@ -35,4 +35,39 @@ namespace PlaceMyBet.Models
         }
 
     }
+
+     //internal Evento mercado(Mercado mer)
+      //  {
+       //     MySqlConnection con = Connect();
+
+       //     MySqlCommand command = con.CreateCommand();
+
+         //       command.CommandText = "SELECT cuota_over FROM mercado";
+
+
+            
+         //   try
+        //    {
+         //       con.Open();
+         //       MySqlDataReader res = command.ExecuteReader();
+
+           //     MercadoDTO m = null;
+           //     if (res.Read())
+            //    {
+               //     Debug.WriteLine("Recuperado: "+ res.GetDouble(0));
+                //    m = new MercadoDTO(res.GetDouble(0), res.GetDouble(0), res.GetDouble(0));
+
+             //   }
+              //  con.Close();
+           //     return m;
+            //}
+           // catch (MySqlException a)
+          //  {
+    
+             //   Debug.WriteLine("Se ha producido un error de conexión");
+            //    return null;
+
+           // }
+
+       // }
 }
