@@ -24,7 +24,30 @@ namespace PlaceMyBet.Controllers
             return e;
         }
 
+        // GET: api/Apuestas/?eUsu=email&tipoM=tipo
+        [Authorize(Roles ="Admin")]
+        public IEnumerable<ApuestaUsu> GetApuestaUsu(string eUsu, double tipoM)
+        {
+
+            var repo = new ApuestaRepository();
+            List<ApuestaUsu> apuestaUsu = repo.GetApuestaUsu(eUsu, tipoM);
+            return apuestaUsu;
+
+        }
+
+        // GET: api/Apuestas/?tipoM=tipo&eUsu=email
+        public IEnumerable<ApuestaMUsu> GetApuestaMUsu(double tipoEm, string emUsu)
+        {
+
+            var repo = new ApuestaRepository();
+            List<ApuestaMUsu> apuestaMUsu = repo.GetApuestaMUsu(tipoEm, emUsu);
+            return apuestaMUsu;
+
+        }
+
+
         // POST: api/Apuestas
+        [Authorize]
         public void Post([FromBody] ApuestaDTO apuesta)
         {
 

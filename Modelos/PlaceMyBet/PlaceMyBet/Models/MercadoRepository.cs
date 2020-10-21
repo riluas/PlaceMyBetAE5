@@ -9,7 +9,7 @@ namespace PlaceMyBet.Models
     {
         private MySqlConnection Connect()
         {
-            string connString = "Server =127.0.0.1;Port=3306;Database=placemybet;Uid=root;password=;SslMode=none";
+            string connString = "Server =127.0.0.1;Port=3306;Database=placemybet1;Uid=root;password=;SslMode=none";
             MySqlConnection con = new MySqlConnection(connString);
             return con;
         }
@@ -115,5 +115,34 @@ namespace PlaceMyBet.Models
             }
             return m;
         }
+    
+
+    internal Mercado Mget(int id, double tipo)
+    {
+        MySqlConnection con = Connect();
+
+        MySqlCommand command = con.CreateCommand();
+
+        command.CommandText = "SELECT * FROM mercado where id_evento = @Eid && overunder = @Mtipo";
+            command.Parameters.AddWithValue("@Eid", id);
+            command.Parameters.AddWithValue("@Mtipo", tipo);
+
+
+
+   
+            con.Open();
+            MySqlDataReader res = command.ExecuteReader();
+
+                Mercado m = null;
+            if (res.Read())
+            {
+                Debug.WriteLine("Recuperado: " + res.GetInt32(0) + " " + res.GetDouble(1) + " " + res.GetDouble(2) + " " + res.GetDouble(3) + " " + res.GetDouble(4) + " " + res.GetDouble(5) + " " + res.GetInt32(6));
+                m = new Mercado(res.GetInt32(0), res.GetDouble(1), res.GetDouble(2), res.GetDouble(3), res.GetDouble(4), res.GetDouble(5), res.GetInt32(6));
+
+                }
+            return m;
+
+
+    }
     }
 }

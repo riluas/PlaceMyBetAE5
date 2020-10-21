@@ -47,4 +47,40 @@ namespace PlaceMyBet.Models
         public string Email_usuario { get; set; }
     }
 
+    public class ApuestaUsu
+    {
+        public ApuestaUsu(int evento, string tipo_apuesta, double cuota, double dinero_apostado)
+        {
+            Evento = evento;
+            Tipo_apuesta = tipo_apuesta;
+            Cuota = cuota;
+            Dinero_apostado = dinero_apostado;
+        }
+
+
+        public int Evento { get; set; }
+        public string Tipo_apuesta { get; set; }
+        public double Cuota { get; set; }
+        public double Dinero_apostado { get; set; }
+
+    }
+
+    public class ApuestaMUsu
+    {
+        public ApuestaMUsu(double overunder, string tipo_apuesta, double cuota, double dinero_apostado)
+        {
+            Tipo_mercado= overunder;
+            Tipo_apuesta = tipo_apuesta;
+            Cuota = cuota;
+            Dinero_apostado = dinero_apostado;
+        }
+
+
+        public double Tipo_mercado { get; set; }
+        public string Tipo_apuesta { get; set; }
+        public double Cuota { get; set; }
+        public double Dinero_apostado { get; set; }
+
+    }
+
 }

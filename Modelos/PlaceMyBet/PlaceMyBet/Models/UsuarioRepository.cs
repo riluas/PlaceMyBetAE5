@@ -11,7 +11,7 @@ namespace PlaceMyBet.Models
     {
         private MySqlConnection Connect()
         {
-            string connString = "Server =127.0.0.1;Port=3306;Database=placemybet;Uid=root;password=;SslMode=none";
+            string connString = "Server =127.0.0.1;Port=3306;Database=placemybet1;Uid=root;password=;SslMode=none";
             MySqlConnection con = new MySqlConnection(connString);
             return con;
         }

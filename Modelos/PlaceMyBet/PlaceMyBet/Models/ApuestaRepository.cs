@@ -12,7 +12,7 @@ namespace PlaceMyBet.Models
     {
         private MySqlConnection Connect()
         {
-            string connString = "Server =127.0.0.1;Port=3306;Database=placemybet;Uid=root;password=;SslMode=none";
+            string connString = "Server =127.0.0.1;Port=3306;Database=placemybet1;Uid=root;password=;SslMode=none";
             MySqlConnection con = new MySqlConnection(connString);
             return con;
         }
@@ -42,6 +42,62 @@ namespace PlaceMyBet.Models
 
             }
         }
+
+        internal List<ApuestaUsu> GetApuestaUsu(string eUsu, double tipoM)
+        {
+
+            MySqlConnection con = Connect();
+            MySqlCommand command = con.CreateCommand();
+            command.CommandText = "SELECT m.overunder, m.id_evento , a.tipo_apuesta, a.cuota, a.dinero_apostado, a.email_usuario FROM mercado m join apuesta a ON a.id_mercado = m.id WHERE overunder = @Mtipo && email_usuario = @Eusu";
+            command.Parameters.AddWithValue("@Eusu", eUsu);
+            command.Parameters.AddWithValue("@Mtipo", tipoM);
+
+            con.Open();
+            MySqlDataReader res = command.ExecuteReader();
+
+            ApuestaUsu apuestaUsu = null;
+            List<ApuestaUsu> uApu = new List<ApuestaUsu>();
+
+            while (res.Read())
+            {
+
+
+                apuestaUsu = new ApuestaUsu(res.GetInt32(1), res.GetString(2), res.GetDouble(3), res.GetDouble(4));
+                uApu.Add(apuestaUsu);
+            }
+
+            return uApu;
+
+        }
+
+        internal List<ApuestaMUsu> GetApuestaMUsu(double tipoEm, string emUsu)
+        {
+
+            MySqlConnection con = Connect();
+            MySqlCommand command = con.CreateCommand();
+            command.CommandText = "SELECT m.overunder, a.tipo_apuesta, a.cuota, a.dinero_apostado, a.email_usuario FROM mercado m join apuesta a ON a.id_mercado = m.id WHERE overunder = @tipoEm && email_usuario = @emUsu";
+            command.Parameters.AddWithValue("@EmUsu", emUsu);
+            command.Parameters.AddWithValue("@TipoEm", tipoEm);
+
+            con.Open();
+            MySqlDataReader res = command.ExecuteReader();
+
+            ApuestaMUsu apuestaMUsu = null;
+            List<ApuestaMUsu> uMApu = new List<ApuestaMUsu>();
+
+            while (res.Read())
+            {
+
+
+                apuestaMUsu = new ApuestaMUsu(res.GetDouble(0), res.GetString(1), res.GetDouble(2), res.GetDouble(3));
+                uMApu.Add(apuestaMUsu);
+            }
+
+            return uMApu;
+
+        }
+
+
 
         internal double Cuota(ApuestaDTO apuesta)
         {

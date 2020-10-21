@@ -24,6 +24,15 @@ namespace PlaceMyBet.Controllers
             return e;
         }
 
+        // GET: api/Eventos?IdEvento=id&TipoM=tipo
+        public Mercado GetMercado(int IdEvento, double TipoM)
+        {
+            var repom = new MercadoRepository();
+
+            Mercado e = repom.Mget(IdEvento, TipoM);
+            return e;
+        }
+
         // POST: api/Eventos
         public void Post([FromBody]string value)
         {
