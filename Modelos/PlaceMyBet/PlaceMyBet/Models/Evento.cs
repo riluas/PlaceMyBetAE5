@@ -22,6 +22,8 @@ namespace PlaceMyBet.Models
         public string Equipo_local { get; set; }
         public string Equipo_visitante { get; set; }
         public int Goles_totales { get; set; }
+
+        public List<Mercado> Mercados { get; set; }
     }
 
     public class EventoDTO

@@ -160,3 +160,255 @@ C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Syst
 C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Memory.xml
 C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Numerics.Vectors.xml
 C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Bcl.HashCode.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Options.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\MySqlConnector.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Pomelo.JsonObject.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Collections.Immutable.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.ComponentModel.Annotations.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Bcl.HashCode.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Options.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\MySqlConnector.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Collections.Immutable.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Ricardo\Documents\DAM\PlaceMyBet\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\PlaceMyBet.dll.config
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\PlaceMyBet.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\PlaceMyBet.pdb
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\csc.exe
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\csc.exe.config
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\csc.rsp
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\csi.exe
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\csi.exe.config
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\csi.rsp
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.AppContext.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Console.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.IO.Compression.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Net.Http.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.ValueTuple.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\vbc.exe
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\vbc.exe.config
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\vbc.rsp
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Antlr3.Runtime.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\BouncyCastle.Crypto.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\EntityFramework.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\EntityFramework.SqlServer.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Google.Protobuf.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\K4os.Compression.LZ4.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\K4os.Hash.xxHash.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Bcl.HashCode.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Options.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\MySql.Data.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\MySqlConnector.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Newtonsoft.Json.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Owin.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Pomelo.JsonObject.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Renci.SshNet.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Buffers.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Collections.Immutable.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.ComponentModel.Annotations.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Memory.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Net.Http.Formatting.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Numerics.Vectors.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Helpers.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Http.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Http.Owin.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Http.WebHost.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Mvc.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Optimization.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Razor.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.WebPages.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Ubiety.Dns.Core.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\WebGrease.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Zstandard.Net.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Google.Protobuf.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\K4os.Compression.LZ4.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\K4os.Hash.xxHash.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Bcl.HashCode.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Options.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\MySql.Data.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\MySqlConnector.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Renci.SshNet.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Buffers.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Collections.Immutable.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Memory.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Numerics.Vectors.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Newtonsoft.Json.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Net.Http.Formatting.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Helpers.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Http.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Http.WebHost.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Mvc.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Optimization.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Razor.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.WebPages.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Antlr3.Runtime.pdb
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\EntityFramework.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\EntityFramework.SqlServer.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\System.Web.Http.Owin.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.Http.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.Razor.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\EntityFramework.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\bin\es\System.Web.Http.Owin.resources.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\obj\Debug\PlaceMyBet.csprojAssemblyReference.cache
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\obj\Debug\PlaceMyBet.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\obj\Debug\PlaceMyBet.csproj.CopyComplete
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\obj\Debug\PlaceMyBet.dll
+C:\Users\Ricardo\Documents\DAM\Acceso a datos\PlaceMybetAE5\Modelos\PlaceMyBet\PlaceMyBet\obj\Debug\PlaceMyBet.pdb

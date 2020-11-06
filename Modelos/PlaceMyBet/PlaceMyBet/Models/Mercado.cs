@@ -7,7 +7,7 @@ namespace PlaceMyBet.Models
 {
     public class Mercado
     {
-        public Mercado(int mercadoId, double overUnder, double cuota_over, double cuota_under, double apostado_over, double apostado_under, int id_evento)
+        public Mercado(int mercadoId, double overUnder, double cuota_over, double cuota_under, double apostado_over, double apostado_under, int eventoID)
         {
             MercadoId = mercadoId;
             OverUnder = overUnder;
@@ -15,7 +15,7 @@ namespace PlaceMyBet.Models
             Cuota_under = cuota_under;
             Apostado_over = apostado_over;
             Apostado_under = apostado_under;
-            Id_evento = id_evento;
+            EventoID = eventoID;
 
         }
 
@@ -25,9 +25,13 @@ namespace PlaceMyBet.Models
         public double Cuota_under { get; set; }
         public double Apostado_over { get; set; }
         public double Apostado_under { get; set; }
-        public int Id_evento { get; set; }
 
+        public int EventoID { get; set; }
+        public Evento Evento { get; set; }
+
+        public List<Apuesta> Apuestas { get; set; }
     }
+
     public class MercadoDTO
     {
         public MercadoDTO(double overUnder, double cuota_over, double cuota_under)

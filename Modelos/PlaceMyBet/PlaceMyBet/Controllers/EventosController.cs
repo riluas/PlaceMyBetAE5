@@ -1,6 +1,7 @@
 ﻿using PlaceMyBet.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -11,18 +12,20 @@ namespace PlaceMyBet.Controllers
     public class EventosController : ApiController
     {
         // GET: api/Eventos
-        public IEnumerable<string> Get()
+        public IEnumerable<Evento> Get()
         {
-            return new string[] { "value1", "value2" };
+            var repo = new EventoRepository();
+            List<Evento> e = repo.Retrieve();
+            return e;
         }
 
         // GET: api/Eventos/5
-        public EventoDTO Get(int id)
+       /* public EventoDTO Get(int id)
         {
             var repo = new EventoRepository();
             EventoDTO e = repo.Retrieve();
             return e;
-        }
+        }*/
 
         // GET: api/Eventos?IdEvento=id&TipoM=tipo
         public Mercado GetMercado(int IdEvento, double TipoM)
@@ -34,8 +37,11 @@ namespace PlaceMyBet.Controllers
         }
 
         // POST: api/Eventos
-        public void Post([FromBody]string value)
+        public void Post([FromBody]Evento evento)
         {
+            Debug.WriteLine("evento val" + evento);
+            var repo = new EventoRepository();
+            repo.Save(evento);
         }
 
         // PUT: api/Eventos/5
