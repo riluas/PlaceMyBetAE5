@@ -60,6 +60,14 @@ namespace PlaceMyBet.Models
            // command.ExecuteNonQuery();
         }
 
+        internal void Save(Mercado m)
+        {
+            PlaceMyBetContext context = new PlaceMyBetContext();
+            context.Mercados.Add(m);
+            context.SaveChanges();
+
+        }
+
         internal void dineroUpdate(ApuestaDTO apuesta)
         {
             //MySqlConnection con = Connect();

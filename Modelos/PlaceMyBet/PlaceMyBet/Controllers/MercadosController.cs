@@ -1,6 +1,7 @@
 ﻿using PlaceMyBet.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -34,8 +35,11 @@ namespace PlaceMyBet.Controllers
         }*/
 
         // POST: api/Mercados
-        public void Post([FromBody]string value)
+        public void Post([FromBody]Mercado mercado)
         {
+            Debug.WriteLine("evento val" + mercado);
+            var repo = new MercadoRepository();
+            repo.Save(mercado);
         }
 
         // PUT: api/Mercados/5
