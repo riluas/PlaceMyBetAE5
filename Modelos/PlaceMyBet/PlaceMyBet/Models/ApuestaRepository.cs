@@ -39,6 +39,7 @@ namespace PlaceMyBet.Models
             return apuesta;
         }
 
+
         /*   internal ApuestaDTO Retrieve()
        {
           // MySqlConnection con = Connect();
@@ -159,10 +160,23 @@ namespace PlaceMyBet.Models
             // }
             return 0;
         }
-
-
-        internal void Save(ApuestaDTO apuesta, double tipo)
+        internal void Save(Apuesta apuesta)
         {
+            PlaceMyBetContext context = new PlaceMyBetContext();
+            context.Apuestas.Add(apuesta);
+            context.SaveChanges();
+
+        }
+
+       // await using (var context = new BloggingContext())
+      //  {
+           //  var blog = new Blog { Url = "http://example.com" };
+            // context.Blogs.Add(blog);
+        //        await context.SaveChangesAsync();
+        //}
+
+//internal void Save(ApuestaDTO apuesta, double tipo)
+       // {
             //MySqlConnection con = Connect();
             // MySqlCommand command = con.CreateCommand();
             //command.CommandText = "INSERT INTO Apuesta(cuota, tipo_apuesta, dinero_apostado, id_mercado, email_usuario) VALUES('" + tipo.ToString(CultureInfo.CreateSpecificCulture("us-US")) + "','" + apuesta.Tipo_apuesta + "','" + apuesta.Dinero_apostado + "','" + apuesta.Id_mercado + "','" + apuesta.Email_usuario + "');";
@@ -182,6 +196,6 @@ namespace PlaceMyBet.Models
 
             //}
             
-        }
+       // }
     }
 }

@@ -60,10 +60,11 @@ namespace PlaceMyBet.Models
            // command.ExecuteNonQuery();
         }
 
-        internal void Save(Mercado m)
+
+        internal void Save(Mercado mercado)
         {
             PlaceMyBetContext context = new PlaceMyBetContext();
-            context.Mercados.Add(m);
+            context.Mercados.Add(mercado);
             context.SaveChanges();
 
         }

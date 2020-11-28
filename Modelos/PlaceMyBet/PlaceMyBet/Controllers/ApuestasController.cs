@@ -49,17 +49,17 @@ namespace PlaceMyBet.Controllers
 
 
         // POST: api/Apuestas
-        [Authorize]
-        public void Post([FromBody] ApuestaDTO apuesta)
+        //[Authorize]
+        public void Post([FromBody] Apuesta apuesta)
         {
 
             var repo = new ApuestaRepository();
-            var repo2 = new MercadoRepository();
-            double tipo = repo.Cuota(apuesta);
-            repo.Save(apuesta, tipo);
-            repo2.dineroUpdate(apuesta);
-            MercadoCuota cUpdate = repo2.cuotaUpdate();
-            repo2.calc(cUpdate);
+            //var repo2 = new MercadoRepository();
+            //double tipo = repo.Cuota(apuesta);
+            repo.Save(apuesta);
+            //repo2.dineroUpdate(apuesta);
+           // MercadoCuota cUpdate = repo2.cuotaUpdate();
+            //repo2.calc(cUpdate);
 
         }
 

@@ -35,7 +35,7 @@ namespace PlaceMyBet.Controllers
         }*/
 
         // POST: api/Mercados
-        public void Post([FromBody]Mercado mercado)
+        public void Post([FromBody] Mercado mercado)
         {
             Debug.WriteLine("evento val" + mercado);
             var repo = new MercadoRepository();
