@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Web;
+using Microsoft.EntityFrameworkCore;
 
 namespace PlaceMyBet.Models
 {
@@ -16,30 +17,29 @@ namespace PlaceMyBet.Models
             MySqlConnection con = new MySqlConnection(connString);
             return con;
         }*/
-        internal List<Evento> Retrieve() 
+        internal List<EventoDTO> Retrieve() 
         {
-            List<Evento> eventos = new List<Evento>();
+
             using (PlaceMyBetContext context = new PlaceMyBetContext())
             {
-                eventos = context.Eventos.ToList();
+                List<EventoDTO> eventos = context.Eventos.Select(p => ToDTO(p)).ToList();
+                return eventos;
             }
-            return eventos;
+        }
 
-                //  MySqlConnection con = Connect();
-                //  MySqlCommand command = con.CreateCommand();
-                // command.CommandText = "SELECT * FROM evento";
+        /*internal List<EventoDTO> Retrieve2()
+        {
+            using (PlaceMyBetContext context = new PlaceMyBetContext())
+            {
+                List<EventoDTO> eventos = context.Eventos.Select(p => ToDTO(p)).ToList();
+                return eventos;
+            }
+        }*/
 
-                // con.Open();
-                //  MySqlDataReader res = command.ExecuteReader();
-
-               // Evento e = null;
-            //  if (res.Read())
-            //  {
-            //      Debug.WriteLine("Recuperado: " + res.GetString(1) + " " + res.GetString(2) + " " + res.GetString(3));
-            //     e = new EventoDTO(res.GetString(1), res.GetString(2), res.GetString(3));
-            // }
-            // return e;
-           // return null;
+        internal static EventoDTO ToDTO(Evento e)
+        {
+            return new EventoDTO(e.Fecha, e.Equipo_local, e.Equipo_visitante);
+            
         }
 
         internal void Save(Evento e)

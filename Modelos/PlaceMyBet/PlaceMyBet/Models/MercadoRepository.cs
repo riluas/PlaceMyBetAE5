@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace PlaceMyBet.Models
 {
@@ -15,51 +17,6 @@ namespace PlaceMyBet.Models
             MySqlConnection con = new MySqlConnection(connString);
             return con;
         }*/
-        internal void calc(MercadoCuota cUpdate)
-        {
-
-           // MySqlConnection con = Connect();
-          //  MySqlCommand command = con.CreateCommand();
-
-
-
-
-                double pOver = cUpdate.Apostado_over / (cUpdate.Apostado_over + cUpdate.Apostado_under);
-                double pUnder = cUpdate.Apostado_under / (cUpdate.Apostado_over + cUpdate.Apostado_under);
-
-            Debug.WriteLine("Update over: " + cUpdate.Apostado_over);
-            Debug.WriteLine("Update under: " + cUpdate.Apostado_under);
-
-            Debug.WriteLine("pro: " + pOver);
-                Debug.WriteLine("under: " + pUnder);
-
-            double cOver = 0.95;
-            double cUnder = 0.95;
-
-            if (pOver != 0)
-            {
-                cOver = 1 / pOver * 0.95;
-            }
-
-            if (pUnder != 0)
-            {
-                cUnder = (1 / pUnder) * 0.95;
-            }
-
-                double overDoble = Math.Round((double)Convert.ToDouble(cOver), 2);
-                double underDoble = Math.Round((double)Convert.ToDouble(cUnder), 2);
-
-           // con.Open();
-
-              //  command.CommandText = "UPDATE mercado SET cuota_over = " + overDoble.ToString(CultureInfo.CreateSpecificCulture("us-US")) + " , cuota_under = " + underDoble.ToString(CultureInfo.CreateSpecificCulture("us-US")) + "WHERE id = " + cUpdate.MercadoId + ";";
-
-            
-
-                Debug.WriteLine("cOver: " + cOver);
-                Debug.WriteLine("cUnder: " + cUnder);
-           // command.ExecuteNonQuery();
-        }
-
 
         internal void Save(Mercado mercado)
         {
@@ -69,56 +26,65 @@ namespace PlaceMyBet.Models
 
         }
 
-        internal void dineroUpdate(ApuestaDTO apuesta)
-        {
-            //MySqlConnection con = Connect();
-            //MySqlCommand command = con.CreateCommand();
-            //con.Open();
-
-
-            if (apuesta.Tipo_apuesta == "over")
+            internal void dineroUpdate(Apuesta apuesta)
             {
-            //    command.CommandText = "UPDATE mercado SET apostado_over = apostado_over + " + apuesta.Dinero_apostado + " WHERE id = " + apuesta.Id_mercado + ";";
-            }
-            else if (apuesta.Tipo_apuesta == "under")
-            {
-             //   command.CommandText = "UPDATE mercado SET apostado_under = apostado_under + " + apuesta.Dinero_apostado + " WHERE id = " + apuesta.Id_mercado + ";";
-            }
-            //command.ExecuteNonQuery();
+            Mercado mercado;
+            using (PlaceMyBetContext context = new PlaceMyBetContext())
+               {
+                
+                mercado = context.Mercados
+                        .Where(m => m.MercadoId == apuesta.MercadoID)
+                        .FirstOrDefault();
 
-
+                if (apuesta.Tipo_apuesta == "over") 
+                {
+                    mercado.Apostado_over += apuesta.Dinero_apostado; 
+                }
+                else if(apuesta.Tipo_apuesta == "under")
+                {
+                    mercado.Apostado_under += apuesta.Dinero_apostado;
+                }
+                context.SaveChanges();
+            }
         }
-
-        internal MercadoCuota cuotaUpdate()
+        internal void cuotaUpdate(Apuesta apuesta)
         {
-           // MySqlConnection con = Connect();
-           // MySqlCommand command = con.CreateCommand();
-           // command.CommandText = "SELECT * FROM mercado";
+            Mercado mercado;
+            using (PlaceMyBetContext context = new PlaceMyBetContext())
+            {
+                mercado = context.Mercados
+                    .Where(m => m.MercadoId == apuesta.MercadoID)
+                    .FirstOrDefault();
 
-          //  con.Open();
-           // MySqlDataReader res = command.ExecuteReader();
+                //Over
+                double proOver = mercado.Apostado_over / (mercado.Apostado_over + mercado.Apostado_under);
+                if (proOver != 0)
+                {
+                    double cOver = 1 / proOver * 0.95;
+                    mercado.Cuota_over = Math.Round((double)Convert.ToDouble(cOver), 2);
+                }
 
-            MercadoCuota cUpdate = null;
-           // if (res.Read())
-          //  {
-
-             //   Debug.WriteLine("Recuperado: " + res.GetDouble(0) + " " + res.GetDouble(1));
-              // cUpdate = new MercadoCuota(res.GetInt32(0),res.GetDouble(4), res.GetDouble(5));
-          //  }
-            // return cUpdate;
-
-            return null;
+                //Under
+                double proUnder = mercado.Apostado_under / (mercado.Apostado_under + mercado.Apostado_over);
+                if (proUnder != 0)
+                {
+                    double cUnder = 1 / proUnder * 0.95;
+                    mercado.Cuota_under = Math.Round((double)Convert.ToDouble(cUnder), 2);
+                }
+                context.SaveChanges();
+            }
 
         }
 
         internal List<Mercado> Retrieve()
         {
-            List<Mercado> mercado = new List<Mercado>();
+            
             using (PlaceMyBetContext context = new PlaceMyBetContext())
             {
-                mercado = context.Mercados.ToList();
+                List<Mercado> mercados = context.Mercados.Include(p => p.Evento).ToList();
+                return mercados;
             }
-            return mercado;
+            
             // MySqlConnection con = Connect();
             // MySqlCommand command = con.CreateCommand();
             //command.CommandText = "SELECT * FROM mercado";

@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Globalization;
+using Microsoft.EntityFrameworkCore;
 
 namespace PlaceMyBet.Models
 {
@@ -18,12 +19,12 @@ namespace PlaceMyBet.Models
         }*/
         internal List<Apuesta> Retrieve()
         {
-            List<Apuesta> apuesta = new List<Apuesta>();
             using (PlaceMyBetContext context = new PlaceMyBetContext())
             {
-                apuesta = context.Apuestas.ToList();
+                List<Apuesta> apuesta = context.Apuestas.Include(p => p.Mercado).ToList();
+                return apuesta;
             }
-            return apuesta;
+
         }
 
         internal Apuesta Retrieve2(int id)
@@ -168,12 +169,6 @@ namespace PlaceMyBet.Models
 
         }
 
-       // await using (var context = new BloggingContext())
-      //  {
-           //  var blog = new Blog { Url = "http://example.com" };
-            // context.Blogs.Add(blog);
-        //        await context.SaveChangesAsync();
-        //}
 
 //internal void Save(ApuestaDTO apuesta, double tipo)
        // {

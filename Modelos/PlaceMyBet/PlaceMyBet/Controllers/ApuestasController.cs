@@ -14,8 +14,8 @@ namespace PlaceMyBet.Controllers
         public IEnumerable<Apuesta> Get()
         {
             var repo = new ApuestaRepository();
-            List<Apuesta> a = repo.Retrieve();
-            return a;
+            List<Apuesta> apuesta = repo.Retrieve();
+            return apuesta;
         }
 
         // GET: api/Apuestas/5
@@ -54,13 +54,11 @@ namespace PlaceMyBet.Controllers
         {
 
             var repo = new ApuestaRepository();
-            //var repo2 = new MercadoRepository();
-            //double tipo = repo.Cuota(apuesta);
-            repo.Save(apuesta);
-            //repo2.dineroUpdate(apuesta);
-           // MercadoCuota cUpdate = repo2.cuotaUpdate();
-            //repo2.calc(cUpdate);
+            var repo2 = new MercadoRepository();
 
+            repo.Save(apuesta);
+            repo2.dineroUpdate(apuesta);
+            repo2.cuotaUpdate(apuesta);
         }
 
         // PUT: api/Apuestas/5
