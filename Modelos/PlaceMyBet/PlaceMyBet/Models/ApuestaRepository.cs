@@ -17,15 +17,38 @@ namespace PlaceMyBet.Models
             MySqlConnection con = new MySqlConnection(connString);
             return con;
         }*/
-        internal List<Apuesta> Retrieve()
+        internal List<ApuestaDTO> Retrieve()
         {
             using (PlaceMyBetContext context = new PlaceMyBetContext())
             {
-                List<Apuesta> apuesta = context.Apuestas.Include(p => p.Mercado).ToList();
-                return apuesta;
+                List<ApuestaDTO> apuestas = context.Apuestas.Select(p => ToDTO(p)).ToList();
+                return apuestas;
             }
 
         }
+
+        internal static ApuestaDTO ToDTO(Apuesta a)
+        {
+            return new ApuestaDTO(a.Cuota, a.Tipo_apuesta, a.Dinero_apostado, a.UsuarioEmail, a.MercadoID);
+
+        }
+
+        /*internal List<MercadoDTO> Retrieve()
+        {
+
+            using (PlaceMyBetContext context = new PlaceMyBetContext())
+            {
+                // List<Mercado> mercados = context.Mercados.Include(p => p.Evento).ToList();
+                List<MercadoDTO> mercados = context.Mercados.Select(p => ToDTO(p)).ToList();
+                return mercados;
+            }
+        }
+
+        internal static MercadoDTO ToDTO(Mercado m)
+        {
+            return new MercadoDTO(m.OverUnder, m.Apostado_over, m.Apostado_under);
+
+        }*/
 
         internal Apuesta Retrieve2(int id)
         {

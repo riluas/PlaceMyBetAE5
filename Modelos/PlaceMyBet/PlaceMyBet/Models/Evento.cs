@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Microsoft.EntityFrameworkCore;
 
 namespace PlaceMyBet.Models
 {
@@ -24,6 +25,7 @@ namespace PlaceMyBet.Models
         public int Goles_totales { get; set; }
 
         public List<Mercado> Mercados { get; set; }
+
     }
 
     public class EventoDTO

@@ -76,31 +76,23 @@ namespace PlaceMyBet.Models
 
         }
 
-        internal List<Mercado> Retrieve()
+        internal List<MercadoDTO> Retrieve()
         {
             
             using (PlaceMyBetContext context = new PlaceMyBetContext())
             {
-                List<Mercado> mercados = context.Mercados.Include(p => p.Evento).ToList();
+                // List<Mercado> mercados = context.Mercados.Include(p => p.Evento).ToList();
+                List<MercadoDTO> mercados = context.Mercados.Select(p => ToDTO(p)).ToList();
                 return mercados;
             }
-            
-            // MySqlConnection con = Connect();
-            // MySqlCommand command = con.CreateCommand();
-            //command.CommandText = "SELECT * FROM mercado";
-
-            // con.Open();
-            //MySqlDataReader res = command.ExecuteReader();
-
-
-            //if (res.Read())
-            //  {
-
-            // Debug.WriteLine("Recuperado: " + res.GetDouble(1) + " " + res.GetDouble(2) + " " + res.GetDouble(3));
-            //  m = new MercadoDTO(res.GetDouble(1), res.GetDouble(2), res.GetDouble(3));
-            //  }
-            // return m;
         }
+
+        internal static MercadoDTO ToDTO(Mercado m)
+        {
+            return new MercadoDTO(m.OverUnder, m.Apostado_over, m.Apostado_under);
+
+        }
+
         internal Mercado Retrieve2(int id)
         {
             Mercado mercado;
