@@ -26,6 +26,28 @@ namespace PlaceMyBet.Models
                 return eventos;
             }
         }
+        /*** Ejercicio 1 ***/
+        internal List<EventoDTO> Exget(string Nombre)
+        {
+
+           // using (PlaceMyBetContext context = new PlaceMyBetContext())
+          //  {
+                //List<EventoDTO> eventos = context.Eventos.Select(p => ToDTO(p)).ToList();
+                //return eventos;
+                List<Evento> evento;
+
+                using (PlaceMyBetContext context = new PlaceMyBetContext())
+                {
+                evento = context.Eventos
+                        .Where(b => b.Equipo_local == Nombre)
+                        .ToList();
+                List<EventoDTO> eventos = context.Eventos.Select(p => ToDTO(p)).ToList();
+                return eventos;
+            }
+                
+            //}
+        }
+        /*** Fin Ejercicio 1 ***/
 
         /*internal List<EventoDTO> Retrieve2()
         {
@@ -35,12 +57,13 @@ namespace PlaceMyBet.Models
                 return eventos;
             }
         }*/
-
+        /*** Ejercicio 1 ***/
         internal static EventoDTO ToDTO(Evento e)
         {
-            return new EventoDTO(e.Fecha, e.Equipo_local, e.Equipo_visitante);
+            return new EventoDTO(e.EventoId,e.Fecha, e.Equipo_local, e.Equipo_visitante);
             
         }
+        /*** Fin Ejercicio 1 ***/
 
         internal void Save(Evento e)
         {

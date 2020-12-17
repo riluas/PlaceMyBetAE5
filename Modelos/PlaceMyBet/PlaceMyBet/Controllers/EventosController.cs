@@ -18,14 +18,16 @@ namespace PlaceMyBet.Controllers
             List<EventoDTO> e = repo.Retrieve();
             return e;
         }
-
-        // GET: api/Eventos/5
-      /* public IEnumerable<EventoDTO> Get(int id)
+        /*** Ejercicio 1 ***/
+        // GET: api/Eventos?Nombre=nombre
+        public IEnumerable<EventoDTO> Get(string Nombre)
         {
             var repo = new EventoRepository();
-            List<EventoDTO> e = repo.Retrieve2();
+            //List<EventoDTO> e = repo.Retrieve2();
+            List<EventoDTO> e = repo.Exget(Nombre);
             return e;
-        }*/
+        }
+        /*** Fin Ejercicio 1 ***/
 
         // GET: api/Eventos?IdEvento=id&TipoM=tipo
         public Mercado GetMercado(int IdEvento, double TipoM)

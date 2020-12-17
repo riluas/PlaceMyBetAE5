@@ -27,19 +27,21 @@ namespace PlaceMyBet.Models
         public List<Mercado> Mercados { get; set; }
 
     }
-
+    /*** Ejercicio 1 ***/
     public class EventoDTO
     {
 
-        public EventoDTO(string fecha, string equipo_local, string equipo_visitante)
+        public EventoDTO(int eventoId,string fecha, string equipo_local, string equipo_visitante)
         {
+            EventoId = eventoId;
             Fecha = fecha;
             Equipo_local = equipo_local;
             Equipo_visitante = equipo_visitante;
         }
-
+        public int EventoId { get; set; }
         public string Fecha { get; set; }
         public string Equipo_local { get; set; }
         public string Equipo_visitante { get; set; }
     }
+    /*** Fin Ejercicio 1 ***/
 }
