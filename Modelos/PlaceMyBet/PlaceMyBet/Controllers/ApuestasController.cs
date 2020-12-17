@@ -28,6 +28,7 @@ namespace PlaceMyBet.Controllers
         public Apuesta Get(int id)
         {
             var repo = new ApuestaRepository();
+            //List<Mercado> mercados = context.Mercados.Include(p => p.Evento).ToList();
             Apuesta a = repo.Retrieve2(id);
             return a;
         }
