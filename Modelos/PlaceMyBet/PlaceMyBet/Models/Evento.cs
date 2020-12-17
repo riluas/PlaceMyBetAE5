@@ -8,7 +8,7 @@ namespace PlaceMyBet.Models
 {
     public class Evento
     {
-
+        /*** Ejercicio 1 ***/
         public Evento(int eventoId,string fecha, string equipo_local, string equipo_visitante, int goles_totales)
         {
             EventoId = eventoId;
@@ -25,8 +25,10 @@ namespace PlaceMyBet.Models
         public int Goles_totales { get; set; }
 
         public List<Mercado> Mercados { get; set; }
+        public List<Apuesta> Apuestas { get; set; }
 
     }
+    /*** fin Ejercicio 1 ***/
     /*** Ejercicio 1 ***/
     public class EventoDTO
     {

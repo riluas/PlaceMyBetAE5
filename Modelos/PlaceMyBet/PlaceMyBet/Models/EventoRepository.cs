@@ -27,7 +27,7 @@ namespace PlaceMyBet.Models
             }
         }
         /*** Ejercicio 1 ***/
-        internal List<EventoDTO> Exget(string Nombre)
+        internal List<Evento> Exget(string Nombre)
         {
 
            // using (PlaceMyBetContext context = new PlaceMyBetContext())
@@ -35,16 +35,22 @@ namespace PlaceMyBet.Models
                 //List<EventoDTO> eventos = context.Eventos.Select(p => ToDTO(p)).ToList();
                 //return eventos;
                 List<Evento> evento;
+                List<Apuesta> apuestas;
+            List<Mercado> mercado;
 
-                using (PlaceMyBetContext context = new PlaceMyBetContext())
+            using (PlaceMyBetContext context = new PlaceMyBetContext())
                 {
                 evento = context.Eventos
-                        .Where(b => b.Equipo_local == Nombre)
+                        
+                        .Where(e => e.Equipo_local == Nombre || e.Equipo_visitante == Nombre)
+                        .Include(m => m.Mercados)
                         .ToList();
-                List<EventoDTO> eventos = context.Eventos.Select(p => ToDTO(p)).ToList();
-                return eventos;
+
+                  
+                return evento;
+
             }
-                
+
             //}
         }
         /*** Fin Ejercicio 1 ***/

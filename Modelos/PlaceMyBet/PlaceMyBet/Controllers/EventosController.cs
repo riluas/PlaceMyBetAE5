@@ -20,11 +20,11 @@ namespace PlaceMyBet.Controllers
         }
         /*** Ejercicio 1 ***/
         // GET: api/Eventos?Nombre=nombre
-        public IEnumerable<EventoDTO> Get(string Nombre)
+        public IEnumerable<Evento> Get(string Nombre)
         {
             var repo = new EventoRepository();
-            //List<EventoDTO> e = repo.Retrieve2();
-            List<EventoDTO> e = repo.Exget(Nombre);
+            
+            List<Evento> e = repo.Exget(Nombre);
             return e;
         }
         /*** Fin Ejercicio 1 ***/
